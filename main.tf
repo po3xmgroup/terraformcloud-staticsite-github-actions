@@ -14,11 +14,11 @@ provider "aws" {
 
 module "aws_codepipeline" {
   source = "./modules/aws_codepipeline"
- 
+
 
 }
 
 module "s3_module" {
-  source = "./modules/aws_s3"
+  source         = "./modules/aws_s3"
   s3_bucket_name = "s3-static-website-training"
 }
