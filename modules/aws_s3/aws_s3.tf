@@ -11,6 +11,6 @@ resource "aws_s3_bucket" "codepipeline_bucket" {
   }
   tags = {
     project   = "training"
-    createdBy = "pabloOjeda"
+    createdby = "pabloOjeda"
   }
 }
